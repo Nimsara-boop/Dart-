@@ -10,6 +10,12 @@ main(){
 
   //Data Types - int double string bool dynamic(can change value at run time) 
 
+//int number = 0;  ------------> initialized with a value
+//int? number;     ------------> nullable; can be assigned later or stay null
+//late int number;  ------------> will be assigned later, and you're promising it won't be null at access time
+
+
+
 int amount1 = 300; //int type
 var amount2 = 200;//compiler determines amount2 looing a its value as int and int only. cannot reassging double or string
 //same for other types with var
@@ -78,7 +84,7 @@ print("$aConstInt is of constant runtime Type ${aConstInt.runtimeType}");
 print('');
 
 print('-------------Null variables----------');
-int? num;
+int? num;          //num is a DATA TYPE, for both int and double. It can also be used as a variable name. 
 print(num);
 
 // can use && and //  and != for logical AND and OR and NOT
